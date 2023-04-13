@@ -1,0 +1,18 @@
+option "operating_currency" "USD"
+2023-01-01 custom "fava-option" "language" "zh_CN"
+
+; Create the Cash account with an initial balance of 1000 USD
+2023-01-01 open Equity:Opening-Balances USD
+2023-01-01 open Assets:Cash USD
+2023-01-01 open Expenses:Food USD
+
+2023-01-01 pad Assets:Cash Equity:Opening-Balances
+
+2023-04-13 balance Assets:Cash 1000.00 USD
+
+; Posting the transaction for buying lunch on Uber Eats.
+2023-04-13 * "Lunch on Uber Eats"
+    ; We are spending $20, so the "Assets:Cash" account decreases by $20.
+    ; We also need to categorize the transaction. For now, we will use "Expenses:Food".
+    Expenses:Food         20.00 USD
+    Assets:Cash
