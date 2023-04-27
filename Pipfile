@@ -8,6 +8,7 @@ beancount = "*"
 fava = "*"
 pricehist = "*"
 beanprice = {editable = true, git = "https://github.com/beancount/beanprice.git"}
+langchain = "*"
 
 [dev-packages]
 
