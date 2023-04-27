@@ -1,0 +1,8 @@
+; Create the Cash account with an initial balance of 1000 USD
+2023-01-01 open Equity:Personal:Opening-Balances CNY
+2023-01-01 open Assets:Personal:Cash CNY
+2023-01-01 open Expenses:Personal:Food CNY
+
+2023-01-01 pad Assets:Personal:Cash Equity:Personal:Opening-Balances
+
+2023-04-13 balance Assets:Personal:Cash 1000.00 CNY

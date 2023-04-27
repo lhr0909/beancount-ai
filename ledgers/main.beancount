@@ -1,0 +1,5 @@
+option "operating_currency" "CNY"
+option "operating_currency" "USD"
+2023-01-01 custom "fava-option" "language" "zh_CN"
+
+include "personal/index.beancount"

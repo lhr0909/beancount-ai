@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 beancount = "*"
 fava = "*"
+pricehist = "*"
+beanprice = {editable = true, git = "https://github.com/beancount/beanprice.git"}
 
 [dev-packages]
 

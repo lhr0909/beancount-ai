@@ -1,0 +1,11 @@
+2023-01-01 commodity CNY
+  name: "Chinese Yuan"
+  asset-class: "cash"
+
+2023-01-01 commodity USD
+  name: "US Dollar"
+  asset-class: "cash"
+  price: "CNY:ratesapi/USD-CNY"
+
+; 2023-04-27 price USD                              6.921566 CNY
+; 2023-04-13 price USD                              6.867319 CNY
